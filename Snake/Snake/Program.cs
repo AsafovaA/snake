@@ -16,6 +16,8 @@ namespace Snake
 
             Draw(8, 2, '%');
 
+            Draw(10, 12, '+');
+
             Console.ReadLine();
         }
         static void Draw(int x, int y, char sym)
